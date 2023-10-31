@@ -4,9 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
-:root {
+  :root {
         --text-color: rgb(240, 240, 240);
         --accent-color: rgb(81, 192, 155) ;
         --background-color: rgb(129, 146, 185) ;
@@ -14,6 +13,7 @@
     font-family: 'Raleway', sans-serif;
     scroll-behavior: smooth;
 }
+
 .container {
   max-width: 1600;
   margin: auto;
@@ -49,8 +49,7 @@
   
 }*/
 
-/* нижняя .button по ИИ 
-состояние на 50.53 на видео*/
+/* нижняя .button по ИИ*/
 
 .nav {
     position: fixed;
@@ -62,8 +61,7 @@
     min-height: 75px;
     display: flex;
     justify-content: end;
-
-}
+  }
 
 .nav a{
     text-decoration: none;
@@ -142,8 +140,6 @@
           grid-template-columns: 1fr;
         }
       }
-      
-      /* Adjustments for image size and spacing */
       .project-list img {
         max-width: 100%;
         height: auto;
