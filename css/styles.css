@@ -165,8 +165,7 @@
         align-items: center;
         font-size: 30px;
         color: var(--text-color) ;
-        text-decoration: none ;  
-        
+        text-decoration: none ;
       }
       .contact-socials {
         display: flex;
@@ -174,11 +173,7 @@
         justify-content: center;
         flex-wrap: wrap;
         text-decoration: none ;
-       
-        
       }
-
-   
-    .icon {
+      .icon {
       width: 40px;
     }
