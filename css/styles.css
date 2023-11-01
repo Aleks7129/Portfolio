@@ -15,7 +15,7 @@
 }
 
 .container {
-  max-width: 1600;
+  max-width: 1600px;
   margin: auto;
 }
 .button {
@@ -83,11 +83,11 @@
     }
 
     .welcome-section h1 {
-        font-size: 80;
+        font-size: 60px;
         color: var(--text-color)
     }
     p {
-        font-size: 30;
+        font-size: 30px;
         font-weight: bold;
         color: var(--accent-color);
         margin: 30px 15px 40px 15px;
@@ -119,7 +119,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: var(--accent-color);
+        background-color: var(--background-color-alternate);
         min-height: 80px;
       }
 
@@ -147,7 +147,7 @@
         margin: 0 auto;
       }
     .contact {
-      min-height: 60vx;
+      min-height: 60vh;
       background-color: var(--background-color-alternate);
       display:flex;
       justify-content: center;
@@ -159,8 +159,8 @@
       .contact-socials a {
         display: flex;
         align-items: center;
-        font-size: 30px;
-        color: var(--text-color) ;
+        font-size: 25px;
+        color: var(--accent-color) ;
         text-decoration: none ;
       }
       .contact-socials {
